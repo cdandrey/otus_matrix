@@ -41,14 +41,14 @@ class Matrix
 
                 MatrixIter(buff_pointer pbuff,data_pointer pdata,int i) 
                     : _i{static_cast<key_type>(i)<<(CHAR_BIT*sizeof(int))}
-                    , _pdata{pdata}
                     , _pbuff{pbuff}
+                    , _pdata{pdata}
                 {}
 
                 MatrixIter(buff_pointer pbuff,data_pointer pdata,decltype(_pdata->begin()) iter)
-                    : _iter{iter}
+                    : _pbuff{pbuff}
                     , _pdata{pdata}
-                    , _pbuff{pbuff}
+                    , _iter{iter}
                 {}
 
                 ~MatrixIter() = default;
