@@ -3,9 +3,9 @@
 
 cmake_minimum_required(VERSION 3.2)
 
-set(THIS tb_print_ip)
-set(SOURCES tb_print_ip.cpp)
-set(LIBS libipp)
+set(THIS tb_matrix)
+set(SOURCES tb_matrix.cpp)
+set(LIBS libmx)
 
 if (DEFINED ENV{TRAVIS_BUILD_NUMBER})
     project(${THIS} VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
@@ -17,10 +17,6 @@ find_package(GTest REQUIRED)
 find_package(Threads REQUIRED)
 
 add_executable(${THIS} ${SOURCES})
-
-#include_directories(
-#    ${GTEST_INCLUDE_DIRS}
-#)
 
 set_target_properties(
     ${THIS}
