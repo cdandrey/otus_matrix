@@ -5,6 +5,7 @@ cmake_minimum_required(VERSION 3.2)
 
 set(THIS libmx)
 set(HEADERS matrix.h)
+set(SOURCES matrix.cpp)
 
 if (DEFINED ENV{TRAVIS_BUILD_NUMBER})
     project(${THIS} VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
@@ -12,7 +13,7 @@ else()
     project(${THIS} VERSION 0.0.1)
 endif()
 
-add_library(${THIS} ${HEADERS})
+add_library(${THIS} ${HEADERS} ${SOURCES})
 
 set_target_properties(
         ${THIS}

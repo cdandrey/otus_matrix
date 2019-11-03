@@ -13,13 +13,14 @@ int main(int,char**)
     assert(a == -1);
     assert(matrix.size() == 0);
 
-    matrix[100][100] = 314;
+    matrix[100][100] = 333;
 
-    assert(matrix[100][100] == 314);
+    assert(matrix[100][100] == 333);
     assert(matrix.size() == 1);
 
-    matrix[0][0] = 999;
-    matrix[100][101] = 111;
+    matrix[0][0] = 111;
+    matrix[99][1000] = 222;
+    matrix[100][101] = 444;
 
     for (auto x : matrix)
         std::cout << x << std::endl;
