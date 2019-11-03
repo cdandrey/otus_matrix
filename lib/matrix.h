@@ -32,10 +32,10 @@ class Matrix
         {
             private:
 
-                key_type _i{};
-                buff_pointer _pbuff{nullptr};
-                data_pointer _pdata{nullptr};
-                decltype(_pdata->begin()) _iter{};
+                key_type _i;
+                buff_pointer _pbuff;
+                data_pointer _pdata;
+                decltype(_pdata->begin()) _iter;
 
             public:
 
