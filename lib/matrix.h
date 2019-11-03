@@ -2,6 +2,7 @@
 #pragma once
 
 #include <map>
+#include <climits>
 
 template<typename T,int DEFAULT_VALUE = 0>
 class Matrix
