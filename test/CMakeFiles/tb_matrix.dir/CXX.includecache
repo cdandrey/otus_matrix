@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/cdandrey/otus_matrix/lib/matrix.h
+map
+-
+climits
+-
+
+/home/travis/build/cdandrey/otus_matrix/test/tb_matrix.cpp
+../lib/matrix.h
+/home/travis/build/cdandrey/otus_matrix/lib/matrix.h
+gtest/gtest.h
+-
+iostream
+-
+random
+-
+array
+-
+

@@ -1,0 +1,9 @@
+Package: prj_matrix
+Version: 0.0.5
+Section: devel
+Priority: optional
+Architecture: amd64
+Installed-Size: 59
+Maintainer: cdandrey@gmail.com
+Description: prj_matrix built using CMake
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/cdandrey/otus_matrix/lib/matrix.h
+map
+-
+climits
+-
+
+/home/travis/build/cdandrey/otus_matrix/src/main.cpp
+../lib/matrix.h
+/home/travis/build/cdandrey/otus_matrix/lib/matrix.h
+iostream
+-
+cassert
+-
+

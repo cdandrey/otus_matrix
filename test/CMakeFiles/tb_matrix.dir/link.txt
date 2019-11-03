@@ -1,0 +1,1 @@
+/usr/bin/g++-9    -rdynamic CMakeFiles/tb_matrix.dir/tb_matrix.cpp.o  -o tb_matrix -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lpthread ../lib/liblibmx.a 
