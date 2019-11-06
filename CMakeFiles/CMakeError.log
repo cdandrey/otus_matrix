@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_50ea3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_50ea3.dir/build.make CMakeFiles/cmTC_50ea3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_69dbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69dbf.dir/build.make CMakeFiles/cmTC_69dbf.dir/build
 make[1]: Entering directory '/home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_50ea3.dir/CheckSymbolExists.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_50ea3.dir/CheckSymbolExists.c.o   -c /home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_50ea3
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50ea3.dir/link.txt --verbose=1
-/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_50ea3.dir/CheckSymbolExists.c.o  -o cmTC_50ea3 
-CMakeFiles/cmTC_50ea3.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_69dbf.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_69dbf.dir/CheckSymbolExists.c.o   -c /home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_69dbf
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69dbf.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_69dbf.dir/CheckSymbolExists.c.o  -o cmTC_69dbf 
+CMakeFiles/cmTC_69dbf.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_50ea3.dir/build.make:86: recipe for target 'cmTC_50ea3' failed
-make[1]: *** [cmTC_50ea3] Error 1
+CMakeFiles/cmTC_69dbf.dir/build.make:86: recipe for target 'cmTC_69dbf' failed
+make[1]: *** [cmTC_69dbf] Error 1
 make[1]: Leaving directory '/home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_50ea3/fast' failed
-make: *** [cmTC_50ea3/fast] Error 2
+Makefile:121: recipe for target 'cmTC_69dbf/fast' failed
+make: *** [cmTC_69dbf/fast] Error 2
 
 File /home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b447a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b447a.dir/build.make CMakeFiles/cmTC_b447a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f6858/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6858.dir/build.make CMakeFiles/cmTC_f6858.dir/build
 make[1]: Entering directory '/home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b447a.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b447a.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b447a
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b447a.dir/link.txt --verbose=1
-/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b447a.dir/CheckFunctionExists.c.o  -o cmTC_b447a -lpthreads 
+Building C object CMakeFiles/cmTC_f6858.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f6858.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f6858
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6858.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f6858.dir/CheckFunctionExists.c.o  -o cmTC_f6858 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b447a.dir/build.make:86: recipe for target 'cmTC_b447a' failed
-make[1]: *** [cmTC_b447a] Error 1
+CMakeFiles/cmTC_f6858.dir/build.make:86: recipe for target 'cmTC_f6858' failed
+make[1]: *** [cmTC_f6858] Error 1
 make[1]: Leaving directory '/home/travis/build/cdandrey/otus_matrix/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_b447a/fast' failed
-make: *** [cmTC_b447a/fast] Error 2
+Makefile:121: recipe for target 'cmTC_f6858/fast' failed
+make: *** [cmTC_f6858/fast] Error 2
 
 
