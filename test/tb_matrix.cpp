@@ -72,7 +72,6 @@ TEST(matrix_test,random_assign_read)
 TEST(matrix_test,hand)
 {
     const int C_DEFAULT_VALUE_V0 = 5;
-    const int C_DEFAULT_VALUE_V5 = 5;
 
     int tmp;
     Matrix<int,C_DEFAULT_VALUE_V0> mv0;
